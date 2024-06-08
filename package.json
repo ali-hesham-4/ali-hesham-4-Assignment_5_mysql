@@ -9,11 +9,11 @@
   "engines": {
     "node": "20.14.0"
   },
-
   "author": "Ali_Hesham",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.19.2",
     "mysql2": "^3.10.0",
     "nodemon": "^3.1.3"
