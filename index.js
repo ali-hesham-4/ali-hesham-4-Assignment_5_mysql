@@ -11,7 +11,7 @@ app.use("/customers",customersRoute)
 app.use("/products",productsRoute)
 app.use("/orders",ordersRoute)
 
-app.use("/",(req,res)=>{
+app.get("/",(req,res)=>{
     res.status(200).json({
         message:"Hello in my project"
     })
