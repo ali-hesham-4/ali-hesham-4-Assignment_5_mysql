@@ -1,0 +1,21 @@
+{
+  "name": "assignment-5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "20.14.0"
+  },
+
+  "author": "Ali_Hesham",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.10.0",
+    "nodemon": "^3.1.3"
+  }
+}
