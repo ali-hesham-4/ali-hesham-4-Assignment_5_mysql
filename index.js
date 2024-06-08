@@ -8,6 +8,13 @@ const app = express()
 const port = process.env.port || 3000
 connection
 
+const corsConfig = {
+    origin: "*",
+    credential: true,
+    methouds : ["GET" , "POST" , "PUT" , "DELETE"],
+};
+app.options("" , cors(corsConfig))
+
 app.use(cors())
 app.use(express.json())
 app.use("/customers",customersRoute)
